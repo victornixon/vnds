@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 90vw;
+    height: 100%;
+    margin: 2rem auto;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    color: #000000;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    background: transparent;
+    
+    
+    margin-bottom: 10px;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: transparent;
+    padding: 0.2rem;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 4px #00000070;
+}
+
+input, button {
+    width: 98%;
+    padding: 0.6rem 0.4rem;
+    margin: 0.4rem;
+    border-radius: 10px;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.success {
+    background-color: #2394d5;
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 1px 0px #00000070;
+}
+.success:hover {
+    background-color: green;
+}
+
+.delete {
+    background-color: green;
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 1px 0px #00000070;
+}
+.delete:hover {
+    background-color: red;
+}
+
+
+table {
+    background-color: transparent;
+    margin-top: .9rem;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 3px 3px 10px 4px #00000070;
+}
+
+th {
+    background: green;
+    text-align: center;
+    font-size: 13pt;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    text-align: left;
+    border-radius: 5px;
+    border-bottom: #000000;
+}
+
+td {
+    padding: auto;
+    color: rgb(255, 255, 255);
+    padding-left: 1rem;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 1px;
+    border-bottom: black;
+    
+    
+}
+footer#rodape {
+    clear: both;
+    text-align: center;margin-top: 3%;
+}
+
+  footer#rodape p {
+    text-align: center;
+    color: black;
+}
+
+  footer#rodape a {
+    color: black;
+  }
